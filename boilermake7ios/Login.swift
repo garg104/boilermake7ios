@@ -8,11 +8,12 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct LoginView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     
     var body: some View {
+        NavigationView {
         VStack (alignment: .center, spacing: 16.0) {
             Image("logo")
             .resizable()
@@ -42,18 +43,18 @@ struct SwiftUIView: View {
             
             HStack {
                 Text("Don't have an account?")
-                NavigationLink(destination:ContentView()) {
+                NavigationLink(destination:SignUpView()) {
                     Text("Sign Up")
                 }
             }
             
-            
+            }
         }
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        LoginView()
     }
 }
