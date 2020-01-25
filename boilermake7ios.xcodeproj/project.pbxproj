@@ -17,10 +17,11 @@
 		7581DF7123DC1BF600C9806D /* boilermake7iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */; };
 		7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7E23DC216F00C9806D /* Dashboard.swift */; };
 		75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */; };
-		75D8571F23DC6070009D4AFA /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571C23DC606F009D4AFA /* Items.swift */; };
-		75D8572023DC6070009D4AFA /* Vendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571D23DC606F009D4AFA /* Vendor.swift */; };
-		75D8572123DC6070009D4AFA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571E23DC6070009D4AFA /* Order.swift */; };
-		75D8572323DC6091009D4AFA /* OrderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8572223DC6091009D4AFA /* OrderCard.swift */; };
+		75F41E3423DC693000BB2122 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3323DC693000BB2122 /* Card.swift */; };
+		75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3523DC6C7400BB2122 /* orderList.swift */; };
+		75F41E3823DCD64900BB2122 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3723DCD64900BB2122 /* Home.swift */; };
+		75F41E3A23DCD9FE00BB2122 /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3923DCD9FE00BB2122 /* Vendors.swift */; };
+		75F41E3C23DCDAE000BB2122 /* mcdonalnds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 /* End PBXBuildFile section */
@@ -59,10 +60,11 @@
 		7581DF7223DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7581DF7E23DC216F00C9806D /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 		75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
-		75D8571C23DC606F009D4AFA /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Items.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Temp/boilermake7ios/Data structs/Items.swift"; sourceTree = "<group>"; };
-		75D8571D23DC606F009D4AFA /* Vendor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vendor.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Temp/boilermake7ios/Data structs/Vendor.swift"; sourceTree = "<group>"; };
-		75D8571E23DC6070009D4AFA /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Temp/boilermake7ios/Data structs/Order.swift"; sourceTree = "<group>"; };
-		75D8572223DC6091009D4AFA /* OrderCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderCard.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Temp/boilermake7ios/OrderCard.swift"; sourceTree = "<group>"; };
+		75F41E3323DC693000BB2122 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		75F41E3523DC6C7400BB2122 /* orderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderList.swift; sourceTree = "<group>"; };
+		75F41E3723DCD64900BB2122 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		75F41E3923DCD9FE00BB2122 /* Vendors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendors.swift; sourceTree = "<group>"; };
+		75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mcdonalnds.jpg; path = ../../../../Downloads/mcdonalnds.jpg; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,10 +118,10 @@
 			isa = PBXGroup;
 			children = (
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
-				75D8572223DC6091009D4AFA /* OrderCard.swift */,
-				75D8571C23DC606F009D4AFA /* Items.swift */,
-				75D8571E23DC6070009D4AFA /* Order.swift */,
-				75D8571D23DC606F009D4AFA /* Vendor.swift */,
+				75F41E3323DC693000BB2122 /* Card.swift */,
+				75F41E3923DCD9FE00BB2122 /* Vendors.swift */,
+				75F41E3723DCD64900BB2122 /* Home.swift */,
+				75F41E3523DC6C7400BB2122 /* orderList.swift */,
 				75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */,
 				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
 				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
@@ -127,6 +129,7 @@
 				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
+				75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
 				7581DF5C23DC1BF600C9806D /* Info.plist */,
 				7581DF5623DC1BF600C9806D /* Preview Content */,
@@ -264,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F41E3C23DCDAE000BB2122 /* mcdonalnds.jpg in Resources */,
 				7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */,
 				7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */,
 				7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */,
@@ -291,17 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F41E3A23DCD9FE00BB2122 /* Vendors.swift in Sources */,
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
+				75F41E3823DCD64900BB2122 /* Home.swift in Sources */,
 				D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */,
-				75D8572123DC6070009D4AFA /* Order.swift in Sources */,
-				75D8572323DC6091009D4AFA /* OrderCard.swift in Sources */,
-				75D8571F23DC6070009D4AFA /* Items.swift in Sources */,
 				7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
-				75D8572023DC6070009D4AFA /* Vendor.swift in Sources */,
+				75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
+				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
