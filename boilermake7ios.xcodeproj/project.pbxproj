@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF4E23DC1BF300C9806D /* AppDelegate.swift */; };
+		7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF5023DC1BF300C9806D /* SceneDelegate.swift */; };
+		7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF5223DC1BF300C9806D /* ContentView.swift */; };
+		7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7581DF5423DC1BF600C9806D /* Assets.xcassets */; };
+		7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7581DF5723DC1BF600C9806D /* Preview Assets.xcassets */; };
+		7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */; };
+		7581DF6623DC1BF600C9806D /* boilermake7iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF6523DC1BF600C9806D /* boilermake7iosTests.swift */; };
+		7581DF7123DC1BF600C9806D /* boilermake7iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7581DF6223DC1BF600C9806D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7581DF4323DC1BF300C9806D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7581DF4A23DC1BF300C9806D;
+			remoteInfo = boilermake7ios;
+		};
+		7581DF6D23DC1BF600C9806D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7581DF4323DC1BF300C9806D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7581DF4A23DC1BF300C9806D;
+			remoteInfo = boilermake7ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7581DF4B23DC1BF300C9806D /* boilermake7ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilermake7ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7581DF4E23DC1BF300C9806D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7581DF5023DC1BF300C9806D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7581DF5223DC1BF300C9806D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7581DF5423DC1BF600C9806D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7581DF5723DC1BF600C9806D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7581DF5A23DC1BF600C9806D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7581DF5C23DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7581DF6123DC1BF600C9806D /* boilermake7iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilermake7iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7581DF6523DC1BF600C9806D /* boilermake7iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilermake7iosTests.swift; sourceTree = "<group>"; };
+		7581DF6723DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7581DF6C23DC1BF600C9806D /* boilermake7iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilermake7iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilermake7iosUITests.swift; sourceTree = "<group>"; };
+		7581DF7223DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7581DF4823DC1BF300C9806D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF5E23DC1BF600C9806D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF6923DC1BF600C9806D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7581DF4223DC1BF300C9806D = {
+			isa = PBXGroup;
+			children = (
+				7581DF4D23DC1BF300C9806D /* boilermake7ios */,
+				7581DF6423DC1BF600C9806D /* boilermake7iosTests */,
+				7581DF6F23DC1BF600C9806D /* boilermake7iosUITests */,
+				7581DF4C23DC1BF300C9806D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7581DF4C23DC1BF300C9806D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7581DF4B23DC1BF300C9806D /* boilermake7ios.app */,
+				7581DF6123DC1BF600C9806D /* boilermake7iosTests.xctest */,
+				7581DF6C23DC1BF600C9806D /* boilermake7iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7581DF4D23DC1BF300C9806D /* boilermake7ios */ = {
+			isa = PBXGroup;
+			children = (
+				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
+				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
+				7581DF5223DC1BF300C9806D /* ContentView.swift */,
+				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
+				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
+				7581DF5C23DC1BF600C9806D /* Info.plist */,
+				7581DF5623DC1BF600C9806D /* Preview Content */,
+			);
+			path = boilermake7ios;
+			sourceTree = "<group>";
+		};
+		7581DF5623DC1BF600C9806D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7581DF5723DC1BF600C9806D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7581DF6423DC1BF600C9806D /* boilermake7iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				7581DF6523DC1BF600C9806D /* boilermake7iosTests.swift */,
+				7581DF6723DC1BF600C9806D /* Info.plist */,
+			);
+			path = boilermake7iosTests;
+			sourceTree = "<group>";
+		};
+		7581DF6F23DC1BF600C9806D /* boilermake7iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */,
+				7581DF7223DC1BF600C9806D /* Info.plist */,
+			);
+			path = boilermake7iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7581DF4A23DC1BF300C9806D /* boilermake7ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7581DF7523DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7ios" */;
+			buildPhases = (
+				7581DF4723DC1BF300C9806D /* Sources */,
+				7581DF4823DC1BF300C9806D /* Frameworks */,
+				7581DF4923DC1BF300C9806D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = boilermake7ios;
+			productName = boilermake7ios;
+			productReference = 7581DF4B23DC1BF300C9806D /* boilermake7ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7581DF6023DC1BF600C9806D /* boilermake7iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7581DF7823DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosTests" */;
+			buildPhases = (
+				7581DF5D23DC1BF600C9806D /* Sources */,
+				7581DF5E23DC1BF600C9806D /* Frameworks */,
+				7581DF5F23DC1BF600C9806D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7581DF6323DC1BF600C9806D /* PBXTargetDependency */,
+			);
+			name = boilermake7iosTests;
+			productName = boilermake7iosTests;
+			productReference = 7581DF6123DC1BF600C9806D /* boilermake7iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7581DF6B23DC1BF600C9806D /* boilermake7iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7581DF7B23DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosUITests" */;
+			buildPhases = (
+				7581DF6823DC1BF600C9806D /* Sources */,
+				7581DF6923DC1BF600C9806D /* Frameworks */,
+				7581DF6A23DC1BF600C9806D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7581DF6E23DC1BF600C9806D /* PBXTargetDependency */,
+			);
+			name = boilermake7iosUITests;
+			productName = boilermake7iosUITests;
+			productReference = 7581DF6C23DC1BF600C9806D /* boilermake7iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7581DF4323DC1BF300C9806D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = boilermake7ios;
+				TargetAttributes = {
+					7581DF4A23DC1BF300C9806D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					7581DF6023DC1BF600C9806D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7581DF4A23DC1BF300C9806D;
+					};
+					7581DF6B23DC1BF600C9806D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 7581DF4A23DC1BF300C9806D;
+					};
+				};
+			};
+			buildConfigurationList = 7581DF4623DC1BF300C9806D /* Build configuration list for PBXProject "boilermake7ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7581DF4223DC1BF300C9806D;
+			productRefGroup = 7581DF4C23DC1BF300C9806D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7581DF4A23DC1BF300C9806D /* boilermake7ios */,
+				7581DF6023DC1BF600C9806D /* boilermake7iosTests */,
+				7581DF6B23DC1BF600C9806D /* boilermake7iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7581DF4923DC1BF300C9806D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */,
+				7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */,
+				7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF5F23DC1BF600C9806D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF6A23DC1BF600C9806D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7581DF4723DC1BF300C9806D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
+				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
+				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF5D23DC1BF600C9806D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7581DF6623DC1BF600C9806D /* boilermake7iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7581DF6823DC1BF600C9806D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7581DF7123DC1BF600C9806D /* boilermake7iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7581DF6323DC1BF600C9806D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7581DF4A23DC1BF300C9806D /* boilermake7ios */;
+			targetProxy = 7581DF6223DC1BF600C9806D /* PBXContainerItemProxy */;
+		};
+		7581DF6E23DC1BF600C9806D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7581DF4A23DC1BF300C9806D /* boilermake7ios */;
+			targetProxy = 7581DF6D23DC1BF600C9806D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7581DF5A23DC1BF600C9806D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7581DF7323DC1BF600C9806D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7581DF7423DC1BF600C9806D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7581DF7623DC1BF600C9806D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"boilermake7ios/Preview Content\"";
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = boilermake7ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7581DF7723DC1BF600C9806D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"boilermake7ios/Preview Content\"";
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = boilermake7ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7581DF7923DC1BF600C9806D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				INFOPLIST_FILE = boilermake7iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7iosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilermake7ios.app/boilermake7ios";
+			};
+			name = Debug;
+		};
+		7581DF7A23DC1BF600C9806D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				INFOPLIST_FILE = boilermake7iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7iosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilermake7ios.app/boilermake7ios";
+			};
+			name = Release;
+		};
+		7581DF7C23DC1BF600C9806D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				INFOPLIST_FILE = boilermake7iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7iosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boilermake7ios;
+			};
+			name = Debug;
+		};
+		7581DF7D23DC1BF600C9806D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BWNBBDW27S;
+				INFOPLIST_FILE = boilermake7iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.boilermake7ios.boilermake7iosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = boilermake7ios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7581DF4623DC1BF300C9806D /* Build configuration list for PBXProject "boilermake7ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7581DF7323DC1BF600C9806D /* Debug */,
+				7581DF7423DC1BF600C9806D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7581DF7523DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7581DF7623DC1BF600C9806D /* Debug */,
+				7581DF7723DC1BF600C9806D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7581DF7823DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7581DF7923DC1BF600C9806D /* Debug */,
+				7581DF7A23DC1BF600C9806D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7581DF7B23DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7581DF7C23DC1BF600C9806D /* Debug */,
+				7581DF7D23DC1BF600C9806D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7581DF4323DC1BF300C9806D /* Project object */;
+}
