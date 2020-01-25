@@ -15,7 +15,6 @@ import SwiftUI
 
 struct Card: View {
     var body: some View {
-            //NavigationView {
 
                 ZStack (alignment: .top) {
                 Rectangle()
@@ -24,29 +23,44 @@ struct Card: View {
                     .shadow(radius: 10.0)
                     .cornerRadius(5)
                     .foregroundColor(Color.red)
-                    
-                    VStack(alignment: .leading) {
-                    
-                        HStack {
+                    NavigationLink(destination: OrderDetails()) {
+                        VStack(alignment: .leading) {
+                            HStack {
                             Text("Order Name")
                             .font(.title)
                             .multilineTextAlignment(.leading)
                                 .padding([.top, .leading])
                                 .foregroundColor(Color.primary)
                             Spacer()
-                        }
-                        
-                        HStack {
+                            }
+                            HStack {
                             Text("Vendor")
                             .font(.headline)
                             .foregroundColor(Color.secondary)
                             .multilineTextAlignment(.leading)
                                 .padding(.leading)
                             Spacer()
+                            }
+                            Spacer()
                         }
+                        .frame(width: 380, height: 90)
+                    }
+            }
 
-                    
-                    Spacer()
+
+    }
+}
+
+struct Card_Previews: PreviewProvider {
+    static var previews: some View {
+        Card()
+    }
+}
+
+
+
+//  50
+
 
 //                        HStack(alignment: .center) {
 //                        Spacer()
@@ -74,17 +88,3 @@ struct Card: View {
 //                    }
                     //.padding(.bottom)
                     //Spacer()
-                }
-                .frame(width: 380, height: 90)
-            }
-
-       // }
-
-    }
-}
-
-struct Card_Previews: PreviewProvider {
-    static var previews: some View {
-        Card()
-    }
-}
