@@ -124,12 +124,12 @@
 				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
 				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
+				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
 				7581DF5C23DC1BF600C9806D /* Info.plist */,
 				7581DF5623DC1BF600C9806D /* Preview Content */,
-				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 			);
 			path = boilermake7ios;
 			sourceTree = "<group>";
