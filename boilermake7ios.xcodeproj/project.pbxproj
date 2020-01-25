@@ -16,6 +16,9 @@
 		7581DF6623DC1BF600C9806D /* boilermake7iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF6523DC1BF600C9806D /* boilermake7iosTests.swift */; };
 		7581DF7123DC1BF600C9806D /* boilermake7iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */; };
 		7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7E23DC216F00C9806D /* Dashboard.swift */; };
+		75D8571723DC5F5E009D4AFA /* Data structs in Resources */ = {isa = PBXBuildFile; fileRef = 75D8571623DC5F5E009D4AFA /* Data structs */; };
+		75D8571923DC5F6E009D4AFA /* OrderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571823DC5F6E009D4AFA /* OrderCard.swift */; };
+		75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilermake7iosUITests.swift; sourceTree = "<group>"; };
 		7581DF7223DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7581DF7E23DC216F00C9806D /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		75D8571623DC5F5E009D4AFA /* Data structs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Data structs"; path = "../../Temp/boilermake7ios/Data structs"; sourceTree = "<group>"; };
+		75D8571823DC5F6E009D4AFA /* OrderCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderCard.swift; path = ../../Temp/boilermake7ios/OrderCard.swift; sourceTree = "<group>"; };
+		75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +111,10 @@
 		7581DF4D23DC1BF300C9806D /* boilermake7ios */ = {
 			isa = PBXGroup;
 			children = (
+				75D8571623DC5F5E009D4AFA /* Data structs */,
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
+				75D8571823DC5F6E009D4AFA /* OrderCard.swift */,
+				75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */,
 				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
 				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
@@ -251,6 +260,7 @@
 			files = (
 				7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */,
 				7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */,
+				75D8571723DC5F5E009D4AFA /* Data structs in Resources */,
 				7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,9 +289,11 @@
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
 				D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */,
+				75D8571923DC5F6E009D4AFA /* OrderCard.swift in Sources */,
 				7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
+				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
