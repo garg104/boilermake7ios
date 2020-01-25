@@ -17,6 +17,7 @@ struct SignUpView: View {
     var body: some View {
          List {
             VStack(alignment: .leading) {
+                Rectangle().foregroundColor(Color.white)
                 HStack {
                   Text("Sign Up")
                     .font(.title)
@@ -29,15 +30,15 @@ struct SignUpView: View {
                     TextField("Email", text: $email)
                         .padding()
                         .listRowInsets(EdgeInsets())
-                    TextField("Password", text: $password)
+                    SecureField("Password", text: $password)
                         .padding()
                         .listRowInsets(EdgeInsets())
-                    TextField("Password2", text: $password)
+                    SecureField("Confirm Password", text: $password2)
                         .padding()
                         .listRowInsets(EdgeInsets())
 //                    Divider()
-            }.navigationBarTitle("Sign Up")
-            signupBtn()
+                signupBtn()
+            }
         }
         .edgesIgnoringSafeArea(.top)
     }
@@ -45,7 +46,6 @@ struct SignUpView: View {
 
 struct signupBtn: View {
     var body: some View {
-        
         HStack {
             Spacer()
             Button(action: {}) {

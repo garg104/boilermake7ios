@@ -24,7 +24,7 @@ struct LoginView: View {
             VStack {
                 TextField("Email", text: $email).lineSpacing(10)
                     .padding()
-                TextField("Password", text: $password).lineSpacing(10)
+                SecureField("Password", text: $password).lineSpacing(10)
                     .padding()
                 
                 HStack {
