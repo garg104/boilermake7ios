@@ -26,12 +26,12 @@ struct Home: View {
                     ScrollView (.horizontal) {
                         HStack(alignment: .top) {
                             NavigationLink(destination: OrderDetails()) {
-                                Vendors()
+                                Vendor1()
                                 .frame(width: 320.0, height: 200.0)
                                     .offset(y: -15)
                             }
                             
-                            Vendors()
+                            Vendor2()
                             .frame(width: 320.0, height: 200.0)
                                 .offset(y: -15)
                         }

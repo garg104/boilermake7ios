@@ -1,5 +1,5 @@
 //
-//  Vendors.swift
+//  Vendor2.swift
 //  boilermake7ios
 //
 //  Created by Chirayu Garg on 1/25/20.
@@ -8,10 +8,10 @@
 
 import SwiftUI
 
-struct Vendors: View {
+struct Vendor2: View {
     var body: some View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        Image("McDonalds")
+        Image("Subway")
         .resizable()
             .renderingMode(.original)
             .aspectRatio(contentMode: .fill)
@@ -21,8 +21,8 @@ struct Vendors: View {
     }
 }
 
-struct Vendors_Previews: PreviewProvider {
+struct Vendor2_Previews: PreviewProvider {
     static var previews: some View {
-        Vendors()
+        Vendor2()
     }
 }

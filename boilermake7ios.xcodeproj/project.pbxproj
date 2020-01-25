@@ -20,8 +20,9 @@
 		75F41E3423DC693000BB2122 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3323DC693000BB2122 /* Card.swift */; };
 		75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3523DC6C7400BB2122 /* orderList.swift */; };
 		75F41E3823DCD64900BB2122 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3723DCD64900BB2122 /* Home.swift */; };
-		75F41E3A23DCD9FE00BB2122 /* Vendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3923DCD9FE00BB2122 /* Vendors.swift */; };
-		75F41E3C23DCDAE000BB2122 /* mcdonalnds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */; };
+		75F41E3A23DCD9FE00BB2122 /* Vendor1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3923DCD9FE00BB2122 /* Vendor1.swift */; };
+		75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3D23DCF62000BB2122 /* Vendor2.swift */; };
+		75F41E4223DCF66D00BB2122 /* Subway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75F41E4123DCF66D00BB2122 /* Subway.jpg */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 /* End PBXBuildFile section */
@@ -63,8 +64,10 @@
 		75F41E3323DC693000BB2122 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		75F41E3523DC6C7400BB2122 /* orderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderList.swift; sourceTree = "<group>"; };
 		75F41E3723DCD64900BB2122 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		75F41E3923DCD9FE00BB2122 /* Vendors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendors.swift; sourceTree = "<group>"; };
-		75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mcdonalnds.jpg; path = ../../../../Downloads/mcdonalnds.jpg; sourceTree = "<group>"; };
+		75F41E3923DCD9FE00BB2122 /* Vendor1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor1.swift; sourceTree = "<group>"; };
+		75F41E3D23DCF62000BB2122 /* Vendor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendor2.swift; sourceTree = "<group>"; };
+		75F41E4023DCF65C00BB2122 /* mcdonalnds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcdonalnds.jpg; sourceTree = "<group>"; };
+		75F41E4123DCF66D00BB2122 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +122,8 @@
 			children = (
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
 				75F41E3323DC693000BB2122 /* Card.swift */,
-				75F41E3923DCD9FE00BB2122 /* Vendors.swift */,
+				75F41E3923DCD9FE00BB2122 /* Vendor1.swift */,
+				75F41E3D23DCF62000BB2122 /* Vendor2.swift */,
 				75F41E3723DCD64900BB2122 /* Home.swift */,
 				75F41E3523DC6C7400BB2122 /* orderList.swift */,
 				75D8571A23DC5FBD009D4AFA /* OrderDetails.swift */,
@@ -129,7 +133,7 @@
 				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
-				75F41E3B23DCDAE000BB2122 /* mcdonalnds.jpg */,
+				75F41E3F23DCF65400BB2122 /* Resources */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
 				7581DF5C23DC1BF600C9806D /* Info.plist */,
 				7581DF5623DC1BF600C9806D /* Preview Content */,
@@ -161,6 +165,15 @@
 				7581DF7223DC1BF600C9806D /* Info.plist */,
 			);
 			path = boilermake7iosUITests;
+			sourceTree = "<group>";
+		};
+		75F41E3F23DCF65400BB2122 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75F41E4123DCF66D00BB2122 /* Subway.jpg */,
+				75F41E4023DCF65C00BB2122 /* mcdonalnds.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F41E3C23DCDAE000BB2122 /* mcdonalnds.jpg in Resources */,
+				75F41E4223DCF66D00BB2122 /* Subway.jpg in Resources */,
 				7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */,
 				7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */,
 				7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */,
@@ -295,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F41E3A23DCD9FE00BB2122 /* Vendors.swift in Sources */,
+				75F41E3A23DCD9FE00BB2122 /* Vendor1.swift in Sources */,
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
 				75F41E3823DCD64900BB2122 /* Home.swift in Sources */,
@@ -303,6 +316,7 @@
 				7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
 				75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */,
+				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
