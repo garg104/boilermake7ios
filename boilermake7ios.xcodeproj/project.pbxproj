@@ -15,6 +15,7 @@
 		7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */; };
 		7581DF6623DC1BF600C9806D /* boilermake7iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF6523DC1BF600C9806D /* boilermake7iosTests.swift */; };
 		7581DF7123DC1BF600C9806D /* boilermake7iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */; };
+		7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7581DF7E23DC216F00C9806D /* Dashboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7581DF6C23DC1BF600C9806D /* boilermake7iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilermake7iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7581DF7023DC1BF600C9806D /* boilermake7iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boilermake7iosUITests.swift; sourceTree = "<group>"; };
 		7581DF7223DC1BF600C9806D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7581DF7E23DC216F00C9806D /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
 				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
+				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
 				7581DF5C23DC1BF600C9806D /* Info.plist */,
@@ -269,6 +272,7 @@
 			files = (
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
+				7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
