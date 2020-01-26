@@ -8,10 +8,6 @@
 
 import SwiftUI
 
-class UserSettings: ObservableObject {
-    @Published var isRegistered = false
-}
-
 struct SignUpView: View {
     @State private var name: String = ""
     @State private var email: String = ""

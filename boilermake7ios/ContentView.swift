@@ -8,6 +8,10 @@
 
 import SwiftUI
 
+class SessionSettings: ObservableObject {
+    @Published var token = ""
+}
+
 struct ContentView: View {
     var body: some View {
 //        Text("Hello, World")
