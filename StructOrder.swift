@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct StructOrder: Codable, Hashable {
+struct StructOrder: Codable, Hashable, Identifiable {
     
     var title: String
     var vendor: String
     var items: [Items]
 }
 
-struct Items: Codable, Hashable {
+struct Items: Codable, Hashable, Identifiable {
     var itemID: String
     var quantity: Int
 }
