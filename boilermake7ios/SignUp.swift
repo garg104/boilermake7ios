@@ -17,7 +17,7 @@ struct SignUpView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var password2: String = ""
-    @State private var registeredUser: StructUser = StructUser(name: "No Name", email: "No Email", orders: [StructOrder](), id: 0)
+    @State private var registeredUser: StructUser = StructUser(name: "No Name", email: "No Email", orders: [StructOrder]())
     @State private var isRegistered: Bool = false
     
     var body: some View {
