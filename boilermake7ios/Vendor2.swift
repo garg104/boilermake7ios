@@ -19,7 +19,7 @@ struct Vendor2: View {
         .frame(width: 320, height: 170)
         .cornerRadius(10)
         .shadow(radius: 10)
-       // }
+        }
     }
 }
 

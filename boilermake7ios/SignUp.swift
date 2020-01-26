@@ -21,7 +21,7 @@ struct SignUpView: View {
             return AnyView(Home(user: registeredUser, orders: []))
         } else {
             return AnyView(
-                //List {
+                List {
             VStack(alignment: .leading) {
                 //Rectangle().foregroundColor(Color.white)
                 HStack {
@@ -66,7 +66,7 @@ struct SignUpView: View {
                       .cornerRadius(20)
                       Spacer()
                   }
-                //}
+                
                 Spacer()
             })
             //.edgesIgnoringSafeArea(.top))
