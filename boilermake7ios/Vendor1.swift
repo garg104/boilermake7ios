@@ -11,15 +11,15 @@ import SwiftUI
 struct Vendor1: View {
     var body: some View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        NavigationLink(destination: OrderDetails()) {
+        //NavigationLink() {
             Image("McDonalds")
             .resizable()
                 .renderingMode(.original)
                 .aspectRatio(contentMode: .fill)
-            .frame(width: 320, height: 170)
+            .frame(width: 300, height: 170)
             .cornerRadius(10)
             .shadow(radius: 10)
-        }
+       // }
     }
 }
 

@@ -11,9 +11,47 @@ import SwiftUI
 struct LoginView: View {
     @State private var email: String = ""
     @State private var password: String = ""
+    @State private var registeredUser: StructUser = StructUser(name: "No Name", email: "No Email", orders: [])
+    @State private var isRegistered: Bool = false
+    @State private var orders: [StructOrder] = []
+    
     
     var body: some View {
-        NavigationView {
+        if (self.isRegistered) {
+            let url = URL(string: "https://boilermake-vii.herokuapp.com/api/orders/user")!
+                var request = URLRequest(url: url)
+                request.httpMethod = "POST"
+                request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+
+                do {
+                    request.httpBody = try JSONEncoder().encode(self.registeredUser)
+                } catch let error {
+                    print(error.localizedDescription)
+                }
+                let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+                    if let error = error {
+                        print("error: \(error)")
+                    } else {
+                        if let response = response as? HTTPURLResponse {
+                            print("statusCode: \(response.statusCode)")
+                        }
+                        if let data = data, let dataString = String(data: data, encoding: .utf8) {
+                            print("data: \(dataString)")
+                            
+                            //data parsing
+                            do {
+                                self.orders = try JSONDecoder().decode([StructOrder].self, from: data)
+                                //print(userData.name)
+                            } catch _ {
+                                print("error")
+                            }
+                        }
+                    }
+                }
+                task.resume()
+            return AnyView(Home(user: self.registeredUser, orders: orders))
+        } else {
+        return AnyView(NavigationView {
         VStack (alignment: .center, spacing: 16.0) {
             Image("logo")
             .resizable()
@@ -33,7 +71,19 @@ struct LoginView: View {
                     }
                 }.padding(.bottom)
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Button(action: {
+                    print("Btn Clicked")
+                    LoginUser(user: LoginFormData(email: self.email.lowercased(), password: self.password)) {(userData, error) in
+                          if let error = error {
+                              print(error)
+                          }
+                        self.registeredUser = userData!
+                        self.isRegistered = true
+                      
+                            
+                    }
+
+                }) {
                     Text("Login")
                 }
                 .padding()
@@ -49,8 +99,9 @@ struct LoginView: View {
             }
             
             }
-        .navigationBarTitle("")
-        .navigationBarHidden(true)
+        //.navigationBarTitle("Sign Up")
+        //.navigationBarHidden(true)
+        })
         }
     }
 }

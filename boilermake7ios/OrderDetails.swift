@@ -9,13 +9,14 @@
 import SwiftUI
 
 struct OrderDetails: View {
+    var orderDetails: [StructOrder]
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct OrderDetails_Previews: PreviewProvider {
-    static var previews: some View {
-        OrderDetails()
-    }
-}
+//struct OrderDetails_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OrderDetails()
+//    }
+//}

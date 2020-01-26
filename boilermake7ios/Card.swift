@@ -15,6 +15,7 @@ import SwiftUI
 
 struct Card: View {
     var info: StructCard
+    var orderDetails: [StructOrder]
     var body: some View {
                 ZStack (alignment: .top) {
                 Rectangle()
@@ -23,7 +24,7 @@ struct Card: View {
                     .shadow(radius: 10.0)
                     .cornerRadius(5)
                     .foregroundColor(Color.red)
-                    NavigationLink(destination: OrderDetails()) {
+                    NavigationLink(destination: OrderDetails(orderDetails: orderDetails)) {
                         VStack(alignment: .leading) {
                             HStack {
                                 Text(info.title)

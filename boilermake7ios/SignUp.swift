@@ -13,16 +13,17 @@ struct SignUpView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var password2: String = ""
-    @State private var registeredUser: StructUser = StructUser(name: "No Name", email: "No Email", orders: [StructOrder]())
+    @State private var registeredUser: StructUser = StructUser(name: "No Name", email: "No Email", orders: [])
     @State private var isRegistered: Bool = false
     
     var body: some View {
         if (self.isRegistered) {
-            return AnyView(Home(user: registeredUser))
+            return AnyView(Home(user: registeredUser, orders: []))
         } else {
-            return AnyView(List {
+            return AnyView(
+                //List {
             VStack(alignment: .leading) {
-                Rectangle().foregroundColor(Color.white)
+                //Rectangle().foregroundColor(Color.white)
                 HStack {
                   Text("Sign Up")
                     .font(.title)
@@ -47,7 +48,7 @@ struct SignUpView: View {
                       Spacer()
                       Button(action: {
                           print("Btn Clicked")
-                        submitUser(user: FormData(email: self.email, password: self.password, password2: self.password2, name: self.name)) {(userData, error) in
+                        submitUser(user: FormData(email: self.email.lowercased(), password: self.password, password2: self.password2, name: self.name)) {(userData, error) in
                               if let error = error {
                                   print(error)
                               }
@@ -64,7 +65,8 @@ struct SignUpView: View {
                       .cornerRadius(20)
                       Spacer()
                   }
-                }
+                //}
+                Spacer()
             })
             //.edgesIgnoringSafeArea(.top))
         }

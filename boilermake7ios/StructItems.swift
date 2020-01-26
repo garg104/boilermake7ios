@@ -9,8 +9,8 @@
 import Foundation
 
 
-struct Items: Identifiable, Codable, Hashable {
-    var itemID: String
+struct StructItems: Codable, Hashable, Identifiable {
+    var itemId: String
     var quantity: Int
-    let id: Int
+    let id: String
 }

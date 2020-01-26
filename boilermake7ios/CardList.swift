@@ -9,10 +9,10 @@
 import SwiftUI
 
 struct CardList: View {
-    var orders: [StructOrder]
+    var Orders: [StructOrder]
     var body: some View {
-        List(orders) { order in
-            Card(info: StructCard(title: order.title, vendor: order.vendor))
+        List(Orders) { order in
+            Card(info: StructCard(title: order.title, vendor: order.vendor), orderDetails: self.Orders)
             .frame(width: 350.0, height: 90.0)
         }
         
@@ -24,3 +24,4 @@ struct CardList: View {
 //        CardList(order: orders)
 //    }
 //}
+

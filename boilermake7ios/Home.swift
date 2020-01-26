@@ -10,6 +10,7 @@ import SwiftUI
 
 struct Home: View {
     var user: StructUser
+    var orders: [StructOrder]
     var body: some View {
         NavigationView {
             List {
@@ -44,7 +45,7 @@ struct Home: View {
                         .font(.largeTitle)
                         .multilineTextAlignment(.leading)
                     VStack {
-                        CardList(orders: user.orders)
+                        CardList(Orders: self.orders)
                             .frame(width: 350.0, height: 90.0)
                     }
 //                    Card()
@@ -61,8 +62,8 @@ struct Home: View {
 //                        .frame(width: 380.0, height: 90.0)
                 }
             }
-            .navigationBarTitle(Text(""))
-            .navigationBarHidden(true)
+            .navigationBarTitle(Text("Home"))
+            //.navigationBarHidden(true)
         }
         //.navigationBarTitle(Text("Hi, There!"))
     }

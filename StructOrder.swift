@@ -11,7 +11,7 @@ import Foundation
 struct StructOrder: Identifiable, Codable, Hashable {
     var title: String
     var vendor: String
-    var items: [Items]
-    let id: Int
+    var items: [StructItems]
+    let id: String
 }
 

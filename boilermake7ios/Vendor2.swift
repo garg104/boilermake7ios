@@ -11,7 +11,7 @@ import SwiftUI
 struct Vendor2: View {
     var body: some View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        NavigationLink(destination: OrderDetails()) {
+       // NavigationLink(destination: OrderDetails(orderDetails: <#[StructOrder]#>)) {
 
         Image("Subway")
         .resizable()
@@ -20,7 +20,7 @@ struct Vendor2: View {
         .frame(width: 320, height: 170)
         .cornerRadius(10)
         .shadow(radius: 10)
-        }
+       // }
     }
 }
 

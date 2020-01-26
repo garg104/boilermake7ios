@@ -11,6 +11,6 @@ import Foundation
 struct StructUser: Codable, Hashable {
     var name: String
     var email: String
-    var orders: [StructOrder]
+    var orders: [String]
 }
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,10 +24,12 @@
 		75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3D23DCF62000BB2122 /* Vendor2.swift */; };
 		75F41E4B23DD0C1200BB2122 /* StructOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4A23DD0C1200BB2122 /* StructOrder.swift */; };
 		75F41E4D23DD145E00BB2122 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4C23DD145E00BB2122 /* Data.swift */; };
-		75F41E4F23DD2E9700BB2122 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* API.swift */; };
+		75F41E4F23DD2E9700BB2122 /* SignAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* SignAPI.swift */; };
 		75F41E5123DD552600BB2122 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5023DD552600BB2122 /* CardList.swift */; };
 		75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5223DD59DE00BB2122 /* StructCard.swift */; };
 		75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5423DD61F800BB2122 /* StructItems.swift */; };
+		75F41E5723DD690D00BB2122 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5623DD690C00BB2122 /* LoginAPI.swift */; };
+		75F41E5A23DD736500BB2122 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 75F41E5923DD736500BB2122 /* JWTDecode */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
@@ -76,10 +78,11 @@
 		75F41E4323DD004A00BB2122 /* Orders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Orders.json; sourceTree = "<group>"; };
 		75F41E4A23DD0C1200BB2122 /* StructOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StructOrder.swift; path = ../StructOrder.swift; sourceTree = "<group>"; };
 		75F41E4C23DD145E00BB2122 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		75F41E4E23DD2E9700BB2122 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		75F41E4E23DD2E9700BB2122 /* SignAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAPI.swift; sourceTree = "<group>"; };
 		75F41E5023DD552600BB2122 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		75F41E5223DD59DE00BB2122 /* StructCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCard.swift; sourceTree = "<group>"; };
 		75F41E5423DD61F800BB2122 /* StructItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructItems.swift; sourceTree = "<group>"; };
+		75F41E5623DD690C00BB2122 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F41E5A23DD736500BB2122 /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +138,6 @@
 		7581DF4D23DC1BF300C9806D /* boilermake7ios */ = {
 			isa = PBXGroup;
 			children = (
-				D6E4D5A823DC229B003ACB74 /* Login.swift */,
 				75F41E4A23DD0C1200BB2122 /* StructOrder.swift */,
 				75F41E5423DD61F800BB2122 /* StructItems.swift */,
 				D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */,
@@ -151,9 +154,11 @@
 				7581DF4E23DC1BF300C9806D /* AppDelegate.swift */,
 				7581DF5023DC1BF300C9806D /* SceneDelegate.swift */,
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
-				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
-				75F41E4E23DD2E9700BB2122 /* API.swift */,
+				D6E4D5A823DC229B003ACB74 /* Login.swift */,
+				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
+				75F41E4E23DD2E9700BB2122 /* SignAPI.swift */,
+				75F41E5623DD690C00BB2122 /* LoginAPI.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
 				75F41E3F23DCF65400BB2122 /* Resources */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
@@ -214,6 +219,9 @@
 			dependencies = (
 			);
 			name = boilermake7ios;
+			packageProductDependencies = (
+				75F41E5923DD736500BB2122 /* JWTDecode */,
+			);
 			productName = boilermake7ios;
 			productReference = 7581DF4B23DC1BF300C9806D /* boilermake7ios.app */;
 			productType = "com.apple.product-type.application";
@@ -286,6 +294,9 @@
 				Base,
 			);
 			mainGroup = 7581DF4223DC1BF300C9806D;
+			packageReferences = (
+				75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */,
+			);
 			productRefGroup = 7581DF4C23DC1BF300C9806D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -340,7 +351,8 @@
 				75F41E4D23DD145E00BB2122 /* Data.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
 				75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */,
-				75F41E4F23DD2E9700BB2122 /* API.swift in Sources */,
+				75F41E4F23DD2E9700BB2122 /* SignAPI.swift in Sources */,
+				75F41E5723DD690D00BB2122 /* LoginAPI.swift in Sources */,
 				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
 				75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */,
@@ -676,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		75F41E5923DD736500BB2122 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7581DF4323DC1BF300C9806D /* Project object */;
 }
