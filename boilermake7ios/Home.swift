@@ -25,14 +25,11 @@ struct Home: View {
                         //.multilineTextAlignment(.leading)
                     ScrollView (.horizontal) {
                         HStack(alignment: .top) {
-                            NavigationLink(destination: OrderDetails()) {
-                                Vendor1()
+                            Vendor1()
                                 .frame(width: 320.0, height: 200.0)
-                                    .offset(y: -15)
-                            }
-                            
+                                .offset(y: -15)
                             Vendor2()
-                            .frame(width: 320.0, height: 200.0)
+                                .frame(width: 320.0, height: 200.0)
                                 .offset(y: -15)
                         }
                         
@@ -45,28 +42,31 @@ struct Home: View {
                     Text("Your Orders")
                         .font(.largeTitle)
                         .multilineTextAlignment(.leading)
-                    //NavigationLink() {
+                    HStack {
+                        //Spacer()
                         Card()
-                        //.padding(12.0)
-                        .frame(width: 380.0, height: 90.0)
-                        .navigationBarBackButtonHidden(true)
-                    //}
-                    Card()
-                    //.padding(12.0)
-                    .frame(width: 380.0, height: 90.0)
-                    Card()
-                    //.padding(12.0)
-                    .frame(width: 380.0, height: 90.0)
-                    Card()
-                    //.padding(12.0)
-                    .frame(width: 380.0, height: 90.0)
-                    Card()
-                    //.padding(12.0)
-                        .frame(width: 380.0, height: 90.0)
+                            //.padding(.horizontal, 28.0)
+                            .frame(width: 350.0, height: 90.0)
+                    //    Spacer()
+                    }
+//                    Card()
+//                        //.padding(12.0)
+//                        .frame(width: 380.0, height: 90.0)
+//                    Card()
+//                        //.padding(12.0)
+//                        .frame(width: 380.0, height: 90.0)
+//                    Card()
+//                        //.padding(12.0)
+//                        .frame(width: 380.0, height: 90.0)
+//                    Card()
+//                        //.padding(12.0)
+//                        .frame(width: 380.0, height: 90.0)
                 }
             }
             .navigationBarTitle(Text(""))
             //.edgesIgnoringSafeArea(.top)
+            .navigationBarHidden(true)
+            .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
         }
         //.navigationBarTitle(Text("Hi, There!"))

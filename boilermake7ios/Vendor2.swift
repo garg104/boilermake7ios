@@ -15,7 +15,7 @@ struct Vendor2: View {
         .resizable()
             .renderingMode(.original)
             .aspectRatio(contentMode: .fill)
-        .frame(width: 300, height: 170)
+        .frame(width: 320, height: 170)
         .cornerRadius(10)
         .shadow(radius: 10)
     }

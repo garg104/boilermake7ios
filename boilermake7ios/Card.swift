@@ -19,7 +19,7 @@ struct Card: View {
                 ZStack (alignment: .top) {
                 Rectangle()
                     .stroke(Color.gray, lineWidth: 4)
-                    .frame(width: 380, height: 90)
+                    .frame(width: 350.0, height: 90)
                     .shadow(radius: 10.0)
                     .cornerRadius(5)
                     .foregroundColor(Color.red)
@@ -43,8 +43,11 @@ struct Card: View {
                             }
                             Spacer()
                         }
-                        .frame(width: 380, height: 90)
-                    }
+                        .frame(width: 350, height: 90)
+//                        .navigationBarBackButtonHidden(true)
+
+                    }.navigationBarHidden(true)
+                    //.hid
             }
 
 
