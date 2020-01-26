@@ -13,6 +13,7 @@ struct SignUpView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var password2: String = ""
+    @State private var isRegistered: Bool = false
     
     var body: some View {
          List {
@@ -52,11 +53,11 @@ struct SignUpView: View {
                 Spacer()
                 Button(action: {
                     print("Btn Clicked")
-                    submitUser(user: self.formData) {(string, error) in
+                    submitUser(user: self.formData) {(userData, error) in
                         if let error = error {
                             print(error)
                         }
-                        print(string ?? "JSON Malformed")
+                        print(userData ?? "JSON Malformed")
                     }
                 }) {
                     Text("Sign Up")
@@ -68,6 +69,11 @@ struct SignUpView: View {
                 Spacer()
             }
         }
+//        init(formData: FormData, completion: @escaping (Bool?, Error?)->()) {
+//            self.formData = formData
+//            
+//        }
+        
     }
 }
 
@@ -76,3 +82,4 @@ struct SignUpView_Previews: PreviewProvider {
         SignUpView()
     }
 }
+
