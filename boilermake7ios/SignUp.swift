@@ -8,15 +8,23 @@
 
 import SwiftUI
 
+class UserSettings: ObservableObject {
+    @Published var isRegistered = false
+}
+
 struct SignUpView: View {
     @State private var name: String = ""
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var password2: String = ""
+    @State private var registeredUser: StructUser = nil
     @State private var isRegistered: Bool = false
     
     var body: some View {
-         List {
+        if (self.isRegistered) {
+            return AnyView(Home(user: registeredUser))
+        } else {
+            return AnyView(List {
             VStack(alignment: .leading) {
                 Rectangle().foregroundColor(Color.white)
                 HStack {
@@ -37,15 +45,36 @@ struct SignUpView: View {
                     SecureField("Confirm Password", text: $password2)
                         .padding()
                         .listRowInsets(EdgeInsets())
-//                    Divider()
-                signupBtn(formData: FormData(email: email, password: password, password2: password2, name: name))
-            }
+                
+                //added
+                  HStack {
+                      Spacer()
+                      Button(action: {
+                          print("Btn Clicked")
+                        submitUser(user: FormData(email: self.email, password: self.password, password2: self.password2, name: self.name)) {(userData, error) in
+                              if let error = error {
+                                  print(error)
+                              }
+                            self.registeredUser = userData
+                            self.isRegistered = true
+                              
+                          }
+                      }) {
+                          Text("Sign Up")
+                      }
+                      .frame(width: 200, height: 50)
+                      .foregroundColor(Color.white)
+                      .background(Color.blue)
+                      .cornerRadius(20)
+                      Spacer()
+                  }
+                }
+            }.edgesIgnoringSafeArea(.top))
         }
-        .edgesIgnoringSafeArea(.top)
     }
     
     struct signupBtn: View {
-        @State private var message: String = ""
+        @State private var signedUp: Bool = false
         
         var formData: FormData
         var body: some View {
@@ -57,6 +86,7 @@ struct SignUpView: View {
                         if let error = error {
                             print(error)
                         }
+                        self.signedUp = true
                         print(userData ?? "JSON Malformed")
                     }
                 }) {
@@ -69,11 +99,12 @@ struct SignUpView: View {
                 Spacer()
             }
         }
-//        init(formData: FormData, completion: @escaping (Bool?, Error?)->()) {
-//            self.formData = formData
-//            
-//        }
-        
+        init(formData: FormData, completion: @escaping (Bool?, Error?)->()) {
+            self.formData = formData
+            if (signedUp) {
+                completion(true, nil)
+            }
+        }
     }
 }
 
