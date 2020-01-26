@@ -99,8 +99,8 @@ struct LoginView: View {
             }
             
             }
-        //.navigationBarTitle("Sign Up")
-        //.navigationBarHidden(true)
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
         })
         }
     }

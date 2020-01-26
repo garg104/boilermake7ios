@@ -68,7 +68,11 @@ struct SignUpView: View {
                   }
                 
                 Spacer()
-            })
+            }
+            //.navigationBarHidden(true)
+            //.navigationBarTitle("")
+            )
+            
             //.edgesIgnoringSafeArea(.top))
         }
     }

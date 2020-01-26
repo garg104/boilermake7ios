@@ -14,8 +14,10 @@ struct qrImg: View {
     
     var body: some View {
         VStack {
-            Text("Scan the QR to place your order!").font(.title)
-            image.frame(width: 200, height: 200).padding()
+            //Text("Scan the QR to place your order!").font(.title)
+            image.renderingMode(.original).resizable()
+                .frame(width: 200, height: 200)
+                .padding()
         }
     }
 }
