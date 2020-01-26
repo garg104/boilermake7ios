@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct Home: View {
+    var JSONstring:String
+        
     var body: some View {
         NavigationView {
             List {
@@ -75,6 +77,6 @@ struct Home: View {
 
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
-        Home()
+        Home(JSONstring: "String")
     }
 }
