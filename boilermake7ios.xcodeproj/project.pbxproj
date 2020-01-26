@@ -75,6 +75,8 @@
 		75F41E4C23DD145E00BB2122 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
+		D6E4D5B023DCF8BC003ACB74 /* SignUpAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
 				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
+				D6E4D5B023DCF8BC003ACB74 /* SignUpAPI.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
 				75F41E3F23DCF65400BB2122 /* Resources */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
@@ -178,7 +181,7 @@
 		75F41E3F23DCF65400BB2122 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75F41E4123DCF66D00BB2122 /* Subway.jpg */,
+				D6E4D5AE23DCF873003ACB74 /* Subway.jpg */,
 				75F41E4023DCF65C00BB2122 /* mcdonalnds.jpg */,
 			);
 			path = Resources;
@@ -288,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F41E4223DCF66D00BB2122 /* Subway.jpg in Resources */,
+				D6E4D5AF23DCF873003ACB74 /* Subway.jpg in Resources */,
 				7581DF5B23DC1BF600C9806D /* LaunchScreen.storyboard in Resources */,
 				7581DF5823DC1BF600C9806D /* Preview Assets.xcassets in Resources */,
 				7581DF5523DC1BF600C9806D /* Assets.xcassets in Resources */,
@@ -328,6 +331,7 @@
 				75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */,
 				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
+				D6E4D5B123DCF8BC003ACB74 /* SignUpAPI.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
 			);
