@@ -37,7 +37,7 @@ struct SignUpView: View {
                         .padding()
                         .listRowInsets(EdgeInsets())
 //                    Divider()
-                signupBtn()
+                signupBtn(formData: FormData(email: email, password: password, password2: password2, name: name))
             }
         }
         .edgesIgnoringSafeArea(.top)
@@ -45,10 +45,14 @@ struct SignUpView: View {
 }
 
 struct signupBtn: View {
+    var formData: FormData
     var body: some View {
         HStack {
             Spacer()
-            Button(action: {}) {
+            Button(action: {
+                print("Btn Clicked")
+                submitUser(user: self.formData)
+            }) {
                 Text("Sign Up")
             }
             .frame(width: 200, height: 50)

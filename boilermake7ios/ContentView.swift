@@ -16,7 +16,7 @@ struct ContentView: View {
             //Card()
 
         //
-        Home()
+        LoginView()
     }
 }
 
