@@ -24,9 +24,10 @@
 		75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E3D23DCF62000BB2122 /* Vendor2.swift */; };
 		75F41E4B23DD0C1200BB2122 /* StructOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4A23DD0C1200BB2122 /* StructOrder.swift */; };
 		75F41E4D23DD145E00BB2122 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4C23DD145E00BB2122 /* Data.swift */; };
-		75F41E4F23DD2E9700BB2122 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* File.swift */; };
+		75F41E4F23DD2E9700BB2122 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* API.swift */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
+		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,10 +73,11 @@
 		75F41E4323DD004A00BB2122 /* Orders.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Orders.json; sourceTree = "<group>"; };
 		75F41E4A23DD0C1200BB2122 /* StructOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StructOrder.swift; path = ../StructOrder.swift; sourceTree = "<group>"; };
 		75F41E4C23DD145E00BB2122 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		75F41E4E23DD2E9700BB2122 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		75F41E4E23DD2E9700BB2122 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
+		D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
 				75F41E4A23DD0C1200BB2122 /* StructOrder.swift */,
+				D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */,
 				75F41E3323DC693000BB2122 /* Card.swift */,
 				75F41E3923DCD9FE00BB2122 /* Vendor1.swift */,
 				75F41E3D23DCF62000BB2122 /* Vendor2.swift */,
@@ -141,7 +144,7 @@
 				7581DF5223DC1BF300C9806D /* ContentView.swift */,
 				D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */,
 				7581DF7E23DC216F00C9806D /* Dashboard.swift */,
-				75F41E4E23DD2E9700BB2122 /* File.swift */,
+				75F41E4E23DD2E9700BB2122 /* API.swift */,
 				7581DF5423DC1BF600C9806D /* Assets.xcassets */,
 				75F41E3F23DCF65400BB2122 /* Resources */,
 				7581DF5923DC1BF600C9806D /* LaunchScreen.storyboard */,
@@ -327,11 +330,12 @@
 				75F41E4D23DD145E00BB2122 /* Data.swift in Sources */,
 				7581DF5323DC1BF300C9806D /* ContentView.swift in Sources */,
 				75F41E3623DC6C7400BB2122 /* orderList.swift in Sources */,
-				75F41E4F23DD2E9700BB2122 /* File.swift in Sources */,
+				75F41E4F23DD2E9700BB2122 /* API.swift in Sources */,
 				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
+				D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

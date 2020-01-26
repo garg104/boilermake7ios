@@ -13,6 +13,7 @@ struct SignUpView: View {
     @State private var email: String = ""
     @State private var password: String = ""
     @State private var password2: String = ""
+    @State private var isRegistered: Bool = false
     
     var body: some View {
          List {
@@ -42,25 +43,37 @@ struct SignUpView: View {
         }
         .edgesIgnoringSafeArea(.top)
     }
-}
-
-struct signupBtn: View {
-    var formData: FormData
-    var body: some View {
-        HStack {
-            Spacer()
-            Button(action: {
-                print("Btn Clicked")
-                submitUser(user: self.formData)
-            }) {
-                Text("Sign Up")
+    
+    struct signupBtn: View {
+        @State private var message: String = ""
+        
+        var formData: FormData
+        var body: some View {
+            HStack {
+                Spacer()
+                Button(action: {
+                    print("Btn Clicked")
+                    submitUser(user: self.formData) {(userData, error) in
+                        if let error = error {
+                            print(error)
+                        }
+                        print(userData ?? "JSON Malformed")
+                    }
+                }) {
+                    Text("Sign Up")
+                }
+                .frame(width: 200, height: 50)
+                .foregroundColor(Color.white)
+                .background(Color.blue)
+                .cornerRadius(20)
+                Spacer()
             }
-            .frame(width: 200, height: 50)
-            .foregroundColor(Color.white)
-            .background(Color.blue)
-            .cornerRadius(20)
-            Spacer()
         }
+//        init(formData: FormData, completion: @escaping (Bool?, Error?)->()) {
+//            self.formData = formData
+//            
+//        }
+        
     }
 }
 
@@ -69,3 +82,4 @@ struct SignUpView_Previews: PreviewProvider {
         SignUpView()
     }
 }
+
