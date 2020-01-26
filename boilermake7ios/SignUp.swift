@@ -65,7 +65,8 @@ struct SignUpView: View {
                       Spacer()
                   }
                 }
-            }.edgesIgnoringSafeArea(.top))
+            })
+            //.edgesIgnoringSafeArea(.top))
         }
     }
     
