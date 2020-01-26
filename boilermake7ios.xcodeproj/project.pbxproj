@@ -27,6 +27,7 @@
 		75F41E4F23DD2E9700BB2122 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* API.swift */; };
 		75F41E5123DD552600BB2122 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5023DD552600BB2122 /* CardList.swift */; };
 		75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5223DD59DE00BB2122 /* StructCard.swift */; };
+		75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5423DD61F800BB2122 /* StructItems.swift */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
@@ -78,6 +79,7 @@
 		75F41E4E23DD2E9700BB2122 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		75F41E5023DD552600BB2122 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		75F41E5223DD59DE00BB2122 /* StructCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCard.swift; sourceTree = "<group>"; };
+		75F41E5423DD61F800BB2122 /* StructItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructItems.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			children = (
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
 				75F41E4A23DD0C1200BB2122 /* StructOrder.swift */,
+				75F41E5423DD61F800BB2122 /* StructItems.swift */,
 				D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */,
 				75F41E5223DD59DE00BB2122 /* StructCard.swift */,
 				75F41E3323DC693000BB2122 /* Card.swift */,
@@ -340,6 +343,7 @@
 				75F41E4F23DD2E9700BB2122 /* API.swift in Sources */,
 				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
+				75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
 				75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */,

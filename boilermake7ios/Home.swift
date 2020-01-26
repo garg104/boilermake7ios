@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct Home: View {
-    var JSONstring:String
     var user: StructUser
     var body: some View {
         NavigationView {

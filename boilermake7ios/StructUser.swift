@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct StructUser: Codable, Hashable {
+struct StructUser: Codable, Hashable, Identifiable {
     var name: String
     var email: String
     var orders: [StructOrder]
+    let id: Int
 }
 
