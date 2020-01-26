@@ -6,19 +6,19 @@
 //  Copyright © 2020 boilermake7ios. All rights reserved.
 //
 
-//import Foundation
-//
-//
-//struct StructOrder: Decodable, Hashable {
-//    
-//    var title: String
-//    var vendor: String
-//    var items: [Items]
-//}
-//
-//struct Items: Decodable, Hashable {
-//    
-//    var itemID: String
-//    var quantity: Int
-//}
-//
+import Foundation
+
+
+struct StructOrder: Decodable, Hashable {
+    
+    var title: String
+    var vendor: String
+    var items: [Items]
+}
+
+struct Items: Decodable, Hashable {
+    
+    var itemID: String
+    var quantity: Int
+}
+
