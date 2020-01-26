@@ -41,31 +41,31 @@ struct SignUpView: View {
                     SecureField("Confirm Password", text: $password2)
                         .padding()
                         .listRowInsets(EdgeInsets())
+                }
                 
                 //added
-                  HStack {
-                      Spacer()
-                      Button(action: {
-                          print("Btn Clicked")
-                        submitUser(user: FormData(email: self.email, password: self.password, password2: self.password2, name: self.name)) {(userData, error) in
-                              if let error = error {
-                                  print(error)
-                              }
-                            self.registeredUser = userData!
-                            self.isRegistered = true
-                              
-                          }
-                      }) {
-                          Text("Sign Up")
-                      }
-                      .frame(width: 200, height: 50)
-                      .foregroundColor(Color.white)
-                      .background(Color.blue)
-                      .cornerRadius(20)
-                      Spacer()
-                  }
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        print("Btn Clicked")
+                      submitUser(user: FormData(email: self.email, password: self.password, password2: self.password2, name: self.name)) {(userData, error) in
+                            if let error = error {
+                                print(error)
+                            }
+                          self.registeredUser = userData!
+                          self.isRegistered = true
+                            
+                        }
+                    }) {
+                        Text("Sign Up")
+                    }
+                    .frame(width: 200, height: 50)
+                    .foregroundColor(Color.white)
+                    .background(Color.blue)
+                    .cornerRadius(20)
+                    Spacer()
                 }
-            })
+            }.padding(.top))
             //.edgesIgnoringSafeArea(.top))
         }
     }

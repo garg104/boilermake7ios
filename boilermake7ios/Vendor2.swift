@@ -12,7 +12,6 @@ struct Vendor2: View {
     var body: some View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         NavigationLink(destination: OrderDetails()) {
-
         Image("Subway")
         .resizable()
             .renderingMode(.original)
