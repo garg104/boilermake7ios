@@ -42,6 +42,7 @@ struct SignUpView: View {
                     SecureField("Confirm Password", text: $password2)
                         .padding()
                         .listRowInsets(EdgeInsets())
+                }
                 
                 //added
                   HStack {

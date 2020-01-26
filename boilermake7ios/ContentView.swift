@@ -10,6 +10,7 @@ import SwiftUI
 
 class SessionSettings: ObservableObject {
     @Published var token = ""
+    @Published var currentOrders = [MenuItemResponse]()
 }
 
 struct ContentView: View {

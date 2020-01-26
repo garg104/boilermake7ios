@@ -33,6 +33,9 @@
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
+		D6E4D5B923DD6AAD003ACB74 /* NewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B823DD6AAD003ACB74 /* NewOrderView.swift */; };
+		D6E4D5BB23DD70F9003ACB74 /* StructMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5BA23DD70F9003ACB74 /* StructMenuItem.swift */; };
+		D6E4D5BD23DDC3D7003ACB74 /* qrImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5BC23DDC3D7003ACB74 /* qrImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
 		D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructUser.swift; sourceTree = "<group>"; };
+		D6E4D5B823DD6AAD003ACB74 /* NewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderView.swift; sourceTree = "<group>"; };
+		D6E4D5BA23DD70F9003ACB74 /* StructMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructMenuItem.swift; sourceTree = "<group>"; };
+		D6E4D5BC23DDC3D7003ACB74 /* qrImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +148,12 @@
 				75F41E5423DD61F800BB2122 /* StructItems.swift */,
 				D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */,
 				75F41E5223DD59DE00BB2122 /* StructCard.swift */,
+				D6E4D5BA23DD70F9003ACB74 /* StructMenuItem.swift */,
 				75F41E3323DC693000BB2122 /* Card.swift */,
 				75F41E3923DCD9FE00BB2122 /* Vendor1.swift */,
 				75F41E3D23DCF62000BB2122 /* Vendor2.swift */,
+				D6E4D5B823DD6AAD003ACB74 /* NewOrderView.swift */,
+				D6E4D5BC23DDC3D7003ACB74 /* qrImg.swift */,
 				75F41E3723DCD64900BB2122 /* Home.swift */,
 				75F41E5023DD552600BB2122 /* CardList.swift */,
 				75F41E4323DD004A00BB2122 /* Orders.json */,
@@ -345,6 +354,7 @@
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
 				75F41E5123DD552600BB2122 /* CardList.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
+				D6E4D5BB23DD70F9003ACB74 /* StructMenuItem.swift in Sources */,
 				75F41E3823DCD64900BB2122 /* Home.swift in Sources */,
 				D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */,
 				7581DF7F23DC216F00C9806D /* Dashboard.swift in Sources */,
@@ -354,7 +364,9 @@
 				75F41E4F23DD2E9700BB2122 /* SignAPI.swift in Sources */,
 				75F41E5723DD690D00BB2122 /* LoginAPI.swift in Sources */,
 				75F41E3E23DCF62000BB2122 /* Vendor2.swift in Sources */,
+				D6E4D5BD23DDC3D7003ACB74 /* qrImg.swift in Sources */,
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
+				D6E4D5B923DD6AAD003ACB74 /* NewOrderView.swift in Sources */,
 				75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,

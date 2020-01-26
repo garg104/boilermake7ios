@@ -11,8 +11,7 @@ import SwiftUI
 struct Vendor2: View {
     var body: some View {
         //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-       // NavigationLink(destination: OrderDetails(orderDetails: <#[StructOrder]#>)) {
-
+        NavigationLink(destination: NewOrderView(restaurant: "Subway")) {
         Image("Subway")
         .resizable()
             .renderingMode(.original)
