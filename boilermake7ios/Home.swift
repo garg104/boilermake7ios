@@ -45,7 +45,7 @@ struct Home: View {
                         .font(.largeTitle)
                         .multilineTextAlignment(.leading)
                     VStack {
-                        CardList(order: user.orders)
+                        CardList(orders: user.orders)
                             .frame(width: 350.0, height: 90.0)
                     }
 //                    Card()
