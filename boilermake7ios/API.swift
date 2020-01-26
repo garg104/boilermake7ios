@@ -22,7 +22,7 @@ struct FormData: Hashable, Codable {
     }
 }
 
-func submitUser(user: FormData, completion: @escaping (String?, Error?) -> ()) {
+func submitUser(user: FormData, completion: @escaping (StructUser?, Error?) -> ()) {
     
     let url = URL(string: "https://boilermake-vii.herokuapp.com/api/users/register")!
     var request = URLRequest(url: url)
@@ -45,7 +45,15 @@ func submitUser(user: FormData, completion: @escaping (String?, Error?) -> ()) {
             }
             if let data = data, let dataString = String(data: data, encoding: .utf8) {
                 print("data: \(dataString)")
-                completion(dataString, nil)
+                
+                //data parsing
+                do {
+                    let userData = try JSONDecoder().decode(StructUser.self, from: data)
+                    print(userData.name)
+                    completion(userData, nil)
+                } catch let jsonError {
+                    completion(nil, jsonError)
+                }
             }
         }
     }
