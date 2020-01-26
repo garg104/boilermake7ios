@@ -14,8 +14,8 @@ import SwiftUI
 //}
 
 struct Card: View {
+    var info: StructCard
     var body: some View {
-
                 ZStack (alignment: .top) {
                 Rectangle()
                     .stroke(Color.gray, lineWidth: 4)
@@ -26,7 +26,7 @@ struct Card: View {
                     NavigationLink(destination: OrderDetails()) {
                         VStack(alignment: .leading) {
                             HStack {
-                            Text("Order Name")
+                                Text(info.title)
                             .font(.title)
                             .multilineTextAlignment(.leading)
                                 .padding([.top, .leading])
@@ -34,7 +34,7 @@ struct Card: View {
                             Spacer()
                             }
                             HStack {
-                            Text("Vendor")
+                                Text(info.vendor)
                             .font(.headline)
                             .foregroundColor(Color.secondary)
                             .multilineTextAlignment(.leading)
@@ -54,11 +54,11 @@ struct Card: View {
     }
 }
 
-struct Card_Previews: PreviewProvider {
-    static var previews: some View {
-        Card()
-    }
-}
+//struct Card_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Card()
+//    }
+//}
 
 
 

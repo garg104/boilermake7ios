@@ -16,7 +16,6 @@ struct StructOrder: Codable, Hashable {
 }
 
 struct Items: Codable, Hashable {
-    
     var itemID: String
     var quantity: Int
 }

@@ -25,6 +25,8 @@
 		75F41E4B23DD0C1200BB2122 /* StructOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4A23DD0C1200BB2122 /* StructOrder.swift */; };
 		75F41E4D23DD145E00BB2122 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4C23DD145E00BB2122 /* Data.swift */; };
 		75F41E4F23DD2E9700BB2122 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E4E23DD2E9700BB2122 /* API.swift */; };
+		75F41E5123DD552600BB2122 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5023DD552600BB2122 /* CardList.swift */; };
+		75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5223DD59DE00BB2122 /* StructCard.swift */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
@@ -74,6 +76,8 @@
 		75F41E4A23DD0C1200BB2122 /* StructOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StructOrder.swift; path = ../StructOrder.swift; sourceTree = "<group>"; };
 		75F41E4C23DD145E00BB2122 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		75F41E4E23DD2E9700BB2122 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		75F41E5023DD552600BB2122 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		75F41E5223DD59DE00BB2122 /* StructCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCard.swift; sourceTree = "<group>"; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
@@ -131,10 +135,12 @@
 				D6E4D5A823DC229B003ACB74 /* Login.swift */,
 				75F41E4A23DD0C1200BB2122 /* StructOrder.swift */,
 				D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */,
+				75F41E5223DD59DE00BB2122 /* StructCard.swift */,
 				75F41E3323DC693000BB2122 /* Card.swift */,
 				75F41E3923DCD9FE00BB2122 /* Vendor1.swift */,
 				75F41E3D23DCF62000BB2122 /* Vendor2.swift */,
 				75F41E3723DCD64900BB2122 /* Home.swift */,
+				75F41E5023DD552600BB2122 /* CardList.swift */,
 				75F41E4323DD004A00BB2122 /* Orders.json */,
 				75F41E4C23DD145E00BB2122 /* Data.swift */,
 				75F41E3523DC6C7400BB2122 /* orderList.swift */,
@@ -323,6 +329,7 @@
 				75F41E3A23DCD9FE00BB2122 /* Vendor1.swift in Sources */,
 				75F41E4B23DD0C1200BB2122 /* StructOrder.swift in Sources */,
 				7581DF4F23DC1BF300C9806D /* AppDelegate.swift in Sources */,
+				75F41E5123DD552600BB2122 /* CardList.swift in Sources */,
 				7581DF5123DC1BF300C9806D /* SceneDelegate.swift in Sources */,
 				75F41E3823DCD64900BB2122 /* Home.swift in Sources */,
 				D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */,
@@ -335,6 +342,7 @@
 				D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */,
 				75D8571B23DC5FBD009D4AFA /* OrderDetails.swift in Sources */,
 				75F41E3423DC693000BB2122 /* Card.swift in Sources */,
+				75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */,
 				D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

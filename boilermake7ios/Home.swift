@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Home: View {
     var JSONstring:String
-        
+    var user: StructUser
     var body: some View {
         NavigationView {
             List {
@@ -44,12 +44,9 @@ struct Home: View {
                     Text("Your Orders")
                         .font(.largeTitle)
                         .multilineTextAlignment(.leading)
-                    HStack {
-                        //Spacer()
-                        Card()
-                            //.padding(.horizontal, 28.0)
+                    VStack {
+                        CardList(order: user.orders)
                             .frame(width: 350.0, height: 90.0)
-                    //    Spacer()
                     }
 //                    Card()
 //                        //.padding(12.0)
@@ -66,17 +63,14 @@ struct Home: View {
                 }
             }
             .navigationBarTitle(Text(""))
-            //.edgesIgnoringSafeArea(.top)
-            .navigationBarHidden(true)
-            .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
         }
         //.navigationBarTitle(Text("Hi, There!"))
     }
 }
 
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        Home(JSONstring: "String")
-    }
-}
+//struct Home_Previews: PreviewProvider {
+//    static var previews: some View {
+//        //Home()
+//    }
+//}

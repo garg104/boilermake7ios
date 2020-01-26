@@ -2,21 +2,22 @@
 //  CardList.swift
 //  boilermake7ios
 //
-//  Created by Chirayu Garg on 1/25/20.
+//  Created by Chirayu Garg on 1/26/20.
 //  Copyright © 2020 boilermake7ios. All rights reserved.
 //
 
 import SwiftUI
 
 struct CardList: View {
-    var cards: Card
+    var order: [StructOrder]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Card(info: StructCard(title: order[0].title, vendor: order[0].vendor))
+            .frame(width: 350.0, height: 90.0)
     }
 }
 
-struct CardList_Previews: PreviewProvider {
-    static var previews: some View {
-        CardList()
-    }
-}
+//struct CardList_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CardList(order: orders)
+//    }
+//}
