@@ -29,7 +29,10 @@
 		75F41E5323DD59DE00BB2122 /* StructCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5223DD59DE00BB2122 /* StructCard.swift */; };
 		75F41E5523DD61F800BB2122 /* StructItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5423DD61F800BB2122 /* StructItems.swift */; };
 		75F41E5723DD690D00BB2122 /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F41E5623DD690C00BB2122 /* LoginAPI.swift */; };
-		75F41E5A23DD736500BB2122 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 75F41E5923DD736500BB2122 /* JWTDecode */; };
+		75F41E5A23DD736500BB2122 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 75F41E5923DD736500BB2122 /* SwiftPackageProductDependency */; };
+		AC7EF17DF07F495FEF44E95D /* Pods_boilermake7ios_boilermake7iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC5034575AE8D1517576DF5 /* Pods_boilermake7ios_boilermake7iosUITests.framework */; };
+		C719CC7006263849EF7AE4C4 /* Pods_boilermake7iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E2E32D4BD657C103D03097 /* Pods_boilermake7iosTests.framework */; };
+		D49E919E7E5B8FE4BC7CE7EF /* Pods_boilermake7ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52E7FA0B34E914A26BE3496 /* Pods_boilermake7ios.framework */; };
 		D6E4D5A923DC229B003ACB74 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5A823DC229B003ACB74 /* Login.swift */; };
 		D6E4D5AB23DC34C3003ACB74 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */; };
 		D6E4D5B523DD3CD2003ACB74 /* StructUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4D5B423DD3CD2003ACB74 /* StructUser.swift */; };
@@ -56,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		164A03A74973FF1B4550E271 /* Pods-boilermake7iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7iosTests.release.xcconfig"; path = "Target Support Files/Pods-boilermake7iosTests/Pods-boilermake7iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		2059202A3D4C5C6E88D2B92E /* Pods-boilermake7ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7ios.debug.xcconfig"; path = "Target Support Files/Pods-boilermake7ios/Pods-boilermake7ios.debug.xcconfig"; sourceTree = "<group>"; };
 		7581DF4B23DC1BF300C9806D /* boilermake7ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilermake7ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7581DF4E23DC1BF300C9806D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7581DF5023DC1BF300C9806D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		75F41E5223DD59DE00BB2122 /* StructCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructCard.swift; sourceTree = "<group>"; };
 		75F41E5423DD61F800BB2122 /* StructItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructItems.swift; sourceTree = "<group>"; };
 		75F41E5623DD690C00BB2122 /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		807D0301DDE3174A9735DD74 /* Pods-boilermake7iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7iosTests.debug.xcconfig"; path = "Target Support Files/Pods-boilermake7iosTests/Pods-boilermake7iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		814244CA58E3E64C6713C838 /* Pods-boilermake7ios-boilermake7iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7ios-boilermake7iosUITests.release.xcconfig"; path = "Target Support Files/Pods-boilermake7ios-boilermake7iosUITests/Pods-boilermake7ios-boilermake7iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAC5034575AE8D1517576DF5 /* Pods_boilermake7ios_boilermake7iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boilermake7ios_boilermake7iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E4D5A823DC229B003ACB74 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		D6E4D5AA23DC34C3003ACB74 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		D6E4D5AE23DCF873003ACB74 /* Subway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Subway.jpg; path = ../../../../Downloads/Subway.jpg; sourceTree = "<group>"; };
@@ -93,6 +101,10 @@
 		D6E4D5B823DD6AAD003ACB74 /* NewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderView.swift; sourceTree = "<group>"; };
 		D6E4D5BA23DD70F9003ACB74 /* StructMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructMenuItem.swift; sourceTree = "<group>"; };
 		D6E4D5BC23DDC3D7003ACB74 /* qrImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrImg.swift; sourceTree = "<group>"; };
+		E52E7FA0B34E914A26BE3496 /* Pods_boilermake7ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boilermake7ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E2E32D4BD657C103D03097 /* Pods_boilermake7iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boilermake7iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F378A17013F1F2D5FF32FA0A /* Pods-boilermake7ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7ios.release.xcconfig"; path = "Target Support Files/Pods-boilermake7ios/Pods-boilermake7ios.release.xcconfig"; sourceTree = "<group>"; };
+		F83224C343C8C61F62112947 /* Pods-boilermake7ios-boilermake7iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilermake7ios-boilermake7iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-boilermake7ios-boilermake7iosUITests/Pods-boilermake7ios-boilermake7iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F41E5A23DD736500BB2122 /* JWTDecode in Frameworks */,
+				75F41E5A23DD736500BB2122 /* BuildFile in Frameworks */,
+				D49E919E7E5B8FE4BC7CE7EF /* Pods_boilermake7ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C719CC7006263849EF7AE4C4 /* Pods_boilermake7iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,12 +129,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7EF17DF07F495FEF44E95D /* Pods_boilermake7ios_boilermake7iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F9B3EE79A05BB254FCC73EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E52E7FA0B34E914A26BE3496 /* Pods_boilermake7ios.framework */,
+				CAC5034575AE8D1517576DF5 /* Pods_boilermake7ios_boilermake7iosUITests.framework */,
+				F2E2E32D4BD657C103D03097 /* Pods_boilermake7iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7581DF4223DC1BF300C9806D = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +153,8 @@
 				7581DF6423DC1BF600C9806D /* boilermake7iosTests */,
 				7581DF6F23DC1BF600C9806D /* boilermake7iosUITests */,
 				7581DF4C23DC1BF300C9806D /* Products */,
+				B9AA67D85FF97E0830757CB5 /* Pods */,
+				3F9B3EE79A05BB254FCC73EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +239,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		B9AA67D85FF97E0830757CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2059202A3D4C5C6E88D2B92E /* Pods-boilermake7ios.debug.xcconfig */,
+				F378A17013F1F2D5FF32FA0A /* Pods-boilermake7ios.release.xcconfig */,
+				F83224C343C8C61F62112947 /* Pods-boilermake7ios-boilermake7iosUITests.debug.xcconfig */,
+				814244CA58E3E64C6713C838 /* Pods-boilermake7ios-boilermake7iosUITests.release.xcconfig */,
+				807D0301DDE3174A9735DD74 /* Pods-boilermake7iosTests.debug.xcconfig */,
+				164A03A74973FF1B4550E271 /* Pods-boilermake7iosTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -219,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7581DF7523DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7ios" */;
 			buildPhases = (
+				8E4BF7D17305A16163E4711B /* [CP] Check Pods Manifest.lock */,
 				7581DF4723DC1BF300C9806D /* Sources */,
 				7581DF4823DC1BF300C9806D /* Frameworks */,
 				7581DF4923DC1BF300C9806D /* Resources */,
+				0B30C97ED4FEC97DBE21026C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +272,7 @@
 			);
 			name = boilermake7ios;
 			packageProductDependencies = (
-				75F41E5923DD736500BB2122 /* JWTDecode */,
+				75F41E5923DD736500BB2122 /* SwiftPackageProductDependency */,
 			);
 			productName = boilermake7ios;
 			productReference = 7581DF4B23DC1BF300C9806D /* boilermake7ios.app */;
@@ -239,6 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7581DF7823DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosTests" */;
 			buildPhases = (
+				165DE75D3D64CBABBB962749 /* [CP] Check Pods Manifest.lock */,
 				7581DF5D23DC1BF600C9806D /* Sources */,
 				7581DF5E23DC1BF600C9806D /* Frameworks */,
 				7581DF5F23DC1BF600C9806D /* Resources */,
@@ -257,9 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7581DF7B23DC1BF600C9806D /* Build configuration list for PBXNativeTarget "boilermake7iosUITests" */;
 			buildPhases = (
+				F6BE25BF6D796511B4793C3A /* [CP] Check Pods Manifest.lock */,
 				7581DF6823DC1BF600C9806D /* Sources */,
 				7581DF6923DC1BF600C9806D /* Frameworks */,
 				7581DF6A23DC1BF600C9806D /* Resources */,
+				000259E05131F8CE4D63FD93 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -304,7 +350,7 @@
 			);
 			mainGroup = 7581DF4223DC1BF300C9806D;
 			packageReferences = (
-				75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */,
+				75F41E5823DD736500BB2122 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 7581DF4C23DC1BF300C9806D /* Products */;
 			projectDirPath = "";
@@ -343,6 +389,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		000259E05131F8CE4D63FD93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios-boilermake7iosUITests/Pods-boilermake7ios-boilermake7iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios-boilermake7iosUITests/Pods-boilermake7ios-boilermake7iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios-boilermake7iosUITests/Pods-boilermake7ios-boilermake7iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B30C97ED4FEC97DBE21026C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios/Pods-boilermake7ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios/Pods-boilermake7ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilermake7ios/Pods-boilermake7ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		165DE75D3D64CBABBB962749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-boilermake7iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E4BF7D17305A16163E4711B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-boilermake7ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BE25BF6D796511B4793C3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-boilermake7ios-boilermake7iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7581DF4723DC1BF300C9806D /* Sources */ = {
@@ -534,6 +683,7 @@
 		};
 		7581DF7623DC1BF600C9806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2059202A3D4C5C6E88D2B92E /* Pods-boilermake7ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +705,7 @@
 		};
 		7581DF7723DC1BF600C9806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F378A17013F1F2D5FF32FA0A /* Pods-boilermake7ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -576,6 +727,7 @@
 		};
 		7581DF7923DC1BF600C9806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807D0301DDE3174A9735DD74 /* Pods-boilermake7iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +750,7 @@
 		};
 		7581DF7A23DC1BF600C9806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 164A03A74973FF1B4550E271 /* Pods-boilermake7iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -620,6 +773,7 @@
 		};
 		7581DF7C23DC1BF600C9806D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83224C343C8C61F62112947 /* Pods-boilermake7ios-boilermake7iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -641,6 +795,7 @@
 		};
 		7581DF7D23DC1BF600C9806D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814244CA58E3E64C6713C838 /* Pods-boilermake7ios-boilermake7iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -702,7 +857,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */ = {
+		75F41E5823DD736500BB2122 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/auth0/JWTDecode.swift.git";
 			requirement = {
@@ -713,9 +868,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		75F41E5923DD736500BB2122 /* JWTDecode */ = {
+		75F41E5923DD736500BB2122 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 75F41E5823DD736500BB2122 /* XCRemoteSwiftPackageReference "JWTDecode.swift" */;
+			package = 75F41E5823DD736500BB2122 /* RemoteSwiftPackageReference */;
 			productName = JWTDecode;
 		};
 /* End XCSwiftPackageProductDependency section */
